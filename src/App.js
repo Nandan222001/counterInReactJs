@@ -16,7 +16,7 @@ function App() {
   const resetHandler = () => {
     setCount(0);
   }
-
+ 
   return (
     <div className="w-[100vw] h-[100vh] flex justify-center items-center bg-[#344151] flex-col gap-10">
       <div className="text-[#0398d4] font-medium text-2xl">Increment & Decrement</div>
